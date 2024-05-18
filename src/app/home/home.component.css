@@ -1,0 +1,11 @@
+.hero {
+    background-image: url('c:/Users/TOUT EN UN/Downloads/hillsideCoverPhoto.jpeg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    align-items: center ;
+    flex-direction: column-reverse;
+    
+}
