@@ -6,7 +6,7 @@ import { foodlist } from './mockfood';
   providedIn: 'root'
 })
 export class FoodService {
-  foodlist: food[] = []
+  foodlist= foodlist
   constructor() { }
 
   getAllfoods() : food[] {

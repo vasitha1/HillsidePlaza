@@ -3,8 +3,17 @@
         <h2 class="subtitle">
           Menu
         </h2>
-        <div *ngfor = "food" in foodlist>
-            <img class = "food-image">
+        <div *ngFor = "let data of foodlist">
+            <div class = "foodimage">
+                {{data.image}}
+            </div>
+            <div class="fooddescription">
+                {{data.name}}
+                {{data.price}}
+                {{data.description}}
+                {{data.readilyAvailable}}
+            </div>
+            <button class="orderbutton" type="Onclick">Order</button>
         </div>
     </section>
 </div>
