@@ -3,7 +3,7 @@ import { food } from "./food"
 export const foodlist: food[] = [
     {
         id: "1",
-        image: "src = './assets/image/beefteck.jfif'",
+        image: "/assets/image/beefteck.jpeg",
         name: "Beefteck",
         description: "Enjoy our beefteck, the best combination of of beef, plantains and spaghetti.",
         readilyAvailable: false,
@@ -11,7 +11,7 @@ export const foodlist: food[] = [
     },
     {
         id: "2",
-        image: "src = './assets/image/carpe.jfif'",
+        image: "/assets/image/carpe.jpeg",
         name: "Tilapia à la poêle",
         description: "Fresh Tilapia gilled in most typical Cameroonian style",
         readilyAvailable: false,
@@ -20,7 +20,7 @@ export const foodlist: food[] = [
 
     {
         id: "3",
-        image: "src = './assets/image/Chicken.jfif'",
+        image: "/assets/image/chicken.jpeg",
         name: "Poulet roti",
         description: "Delicious spicy chicken",
         readilyAvailable: false,
@@ -29,7 +29,7 @@ export const foodlist: food[] = [
 
     {
         id: "4",
-        image: "src = './assets/image/CremeSauce.jfif'",
+        image: "/assets/image/cremesauce.jpeg",
         name: "Sauce à la creme ",
         description: "Dive into a endless welbeing with our excuisitely tasting creme sauce",
         readilyAvailable: false,
@@ -38,7 +38,7 @@ export const foodlist: food[] = [
 
     {
         id: "5",
-        image: "src = './assets/image/fufu.jfif'",
+        image: "/assets/image/fufu.jpeg",
         name: "Fufu, Njama-njama and Nkati-nkati",
         description: "Would you like to taste the excuisite meals from the nothwest region of Cameroon?",
         readilyAvailable: false,
@@ -47,7 +47,7 @@ export const foodlist: food[] = [
 
     {
         id: "5",
-        image: "src = './assets/image/ndole.jfif'",
+        image: "/assets/image/ndole.jpeg",
         name: "Ndole ",
         description: "Ndole is one of the most globally eaten dish from Cameroon",
         readilyAvailable: false,
@@ -56,7 +56,7 @@ export const foodlist: food[] = [
 
     {
         id: "6",
-        image: "src = './assets/image/hillsideCoverPhoto.jpeg'",
+        image: "/assets/image/hillsideCoverPhoto.jpeg",
         name: "Fried Rice ",
         description: "Our customers favorite",
         readilyAvailable: false,
@@ -65,7 +65,7 @@ export const foodlist: food[] = [
 
     {
         id: "7",
-        image: "src = './assets/image/spaghetti.jfif'",
+        image: "/assets/image/spaghetti.jpeg",
         name: "Spaghetti ",
         description: "For the pasta lovers",
         readilyAvailable: false,
